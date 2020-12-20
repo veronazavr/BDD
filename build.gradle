@@ -16,6 +16,7 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.7.0'
     testImplementation 'com.codeborne:selenide:5.16.2'
+    testImplementation group: 'org.projectlombok', name: 'lombok', version: '1.18.16'
     testRuntimeOnly 'org.slf4j:slf4j-simple:1.7.30'
     testImplementation 'com.github.javafaker:javafaker:1.0.2'
     testImplementation 'io.rest-assured:rest-assured:4.3.1'
