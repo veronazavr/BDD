@@ -1,5 +1,5 @@
 package ru.netology.page;
-
+import lombok.val;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 
